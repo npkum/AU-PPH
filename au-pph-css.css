@@ -1,0 +1,44 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    background: #ff0;
+    padding: 10px;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 60px; /* Height of the footer */
+}
+
+.footer-1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background: linear-gradient();
+    text-align: left;
+    font: 12px arial,verdana;
+    #background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+div > .footer-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background: linear-gradient();
+    text-align: right;
+    font: 12px arial,verdana;
+}
