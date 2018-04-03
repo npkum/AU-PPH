@@ -28,12 +28,12 @@
     text-align: left;
     font: 12px arial,verdana;
     #background-image: url("images/1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    #background-repeat: no-repeat;
+    #background-size: contain;
 
 }
 
-div > .footer-2 {
+.footer-2 {
     position: absolute;
     bottom: 0;
     width: 100%;
